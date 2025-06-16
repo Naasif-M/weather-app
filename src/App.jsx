@@ -32,7 +32,6 @@ function App() {
   const dayName = days[today.getDay()];
   const day = today.getDate(); // Day of the month (1–31)
   const monthName = today.toLocaleString("default", { month: "short" }); // Month (0–11) + 1
-  const year = today.getFullYear(); // Full year (e.g., 2025)
   const hours = today.getHours(); // Hours (0–23)
   const minutes = today.getMinutes();
 
